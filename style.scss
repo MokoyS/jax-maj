@@ -51,9 +51,8 @@ p {
 
 body {
 	width: 100%;
-	height: 300vh;
-	overflow-y: hidden;
-	background: linear-gradient(180deg, rgb(36, 44, 70) 0%, rgb(82, 0, 99) 47%, rgb(0, 89, 107) 100%);
+	height: 100vh;
+	background: linear-gradient(180deg, rgb(36, 44, 70) 0%, rgb(82, 0, 99) 100%);
 	
 }
 @font-face {
@@ -149,4 +148,26 @@ skew to change the 'thickness' of the glitch.*/
       transform: skew((random(10) - 5) + deg);
     }
   }
+}
+
+@media only screen and (max-width: 515px) {
+	h3 {
+		font-size: 1.5em;
+	}
+
+	h1 {
+		font-size: 8em;
+	}
+
+	.glitch {
+		font-size: 8em;
+
+	}
+
+
+}
+@media only screen and (max-width: 400px) {
+	h3 {
+		font-size: 1em;
+	}
 }
